@@ -45,4 +45,8 @@ public class Ventilador {
         this.ligado = !this.ligado;
         return this.ligado;
     }
+
+    public Ventilador (int val){
+        this.intensidade = val;
+    }
 }
